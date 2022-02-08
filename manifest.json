@@ -1,0 +1,27 @@
+{
+    "name": "Khritiya Bhajan",
+    "short_name": "KB",
+    "start_url": "index.html",
+    "lang": "en",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#00a347",
+    "background_color": "#00a347",
+    "icons": [
+        {
+			"src": "launcher_128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "launcher_192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "launcher_512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+    ]
+}
