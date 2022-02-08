@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist -b deploy"
   },
   "keywords": [],
   "author": "Kinsae",
@@ -19,6 +20,7 @@
     "copy-webpack-plugin": "^6.0.1",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.2.3",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
