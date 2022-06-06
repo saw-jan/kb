@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
-    "deploy": "gh-pages -d dist -b deploy"
+    "deploy": "node scripts/pre-deploy.js && gh-pages -d dist -b deploy"
   },
   "keywords": [],
   "author": "Kinsae",

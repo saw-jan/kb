@@ -1,5 +1,5 @@
 const CACHE_NAME = 'kb-pwa';
-let OFFLINE_ASSETS = ['/', '/main.js', '/index.html', '/offline.html'];
+const OFFLINE_ASSETS = ['/', '/main.js', '/index.html', '/offline.html'];
 
 // install serviceWorker
 self.addEventListener('install', (event) => {
